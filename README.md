@@ -11,3 +11,6 @@ in the "harmful if swallowed" problem:
 try {
 // ... to do something useful
 } catch(ObligatoryException e) {} // Gulp!
+<br>
+http://www.psxia.com/news/show-7-1590.html
+<br>
