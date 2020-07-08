@@ -14,3 +14,5 @@ try {
 <br>
 http://www.psxia.com/news/show-7-1590.html
 <br>
+ In Java, there are restrictions on the way that Java generics can be used with exception specifications.
+<br>
