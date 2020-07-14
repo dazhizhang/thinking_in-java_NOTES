@@ -16,3 +16,8 @@ http://www.psxia.com/news/show-7-1590.html
 <br>
  In Java, there are restrictions on the way that Java generics can be used with exception specifications.
 <br>
+On top of this, there are very significant productivity benefits to reducing the compile-time constraints upon the programmer. Indeed, reflection and generics are 
+<br>
+required to compensate for the overconstraining nature of static typing, as you shall see in a number of examples throughout the book.
+<br>
+
