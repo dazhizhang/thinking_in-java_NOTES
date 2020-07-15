@@ -21,3 +21,12 @@ On top of this, there are very significant productivity benefits to reducing the
 required to compensate for the overconstraining nature of static typing, as you shall see in a number of examples throughout the book.
 <br>
 
+Converting checked to unchecked exceptions
+Throwing an exception from main( ) is convenient when you’re writing simple programs for your own consumption, but is not generally useful. The real problem is when you are writing an ordinary method body, and you call another method and realize, "I have no idea what to do with this exception here, but I don’t want to swallow it or print some banal message." With chained exceptions, a new and simple solution prevents itself. You simply "wrap" a checked exception inside a RuntimeException by passing it to the RuntimeException constructor, like this:
+<br>
+try{
+ // ... to do something useful
+} catch(IDontKnowWhatToDoWithThisCheckedException e) {
+  throw new RuntimeException(e);
+}
+<br>
